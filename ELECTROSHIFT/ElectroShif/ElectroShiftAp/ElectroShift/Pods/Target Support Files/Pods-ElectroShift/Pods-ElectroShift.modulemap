@@ -1,0 +1,6 @@
+framework module Pods_ElectroShift {
+  umbrella header "Pods-ElectroShift-umbrella.h"
+
+  export *
+  module * { export * }
+}

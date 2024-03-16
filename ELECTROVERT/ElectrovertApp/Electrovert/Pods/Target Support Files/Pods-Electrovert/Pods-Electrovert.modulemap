@@ -1,0 +1,6 @@
+framework module Pods_Electrovert {
+  umbrella header "Pods-Electrovert-umbrella.h"
+
+  export *
+  module * { export * }
+}

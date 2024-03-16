@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		619A9CAD2AEC118E00E32C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CAC2AEC118E00E32C6D /* AppDelegate.swift */; };
+		619A9CAF2AEC118E00E32C6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CAE2AEC118E00E32C6D /* SceneDelegate.swift */; };
+		619A9CB12AEC118E00E32C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CB02AEC118E00E32C6D /* ViewController.swift */; };
+		619A9CB42AEC118E00E32C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619A9CB22AEC118E00E32C6D /* Main.storyboard */; };
+		619A9CB62AEC119000E32C6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619A9CB52AEC119000E32C6D /* Assets.xcassets */; };
+		619A9CB92AEC119000E32C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619A9CB72AEC119000E32C6D /* LaunchScreen.storyboard */; };
+		619A9CC62AEC130B00E32C6D /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CC12AEC130B00E32C6D /* VC3.swift */; };
+		619A9CC72AEC130B00E32C6D /* Ampstokva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CC22AEC130B00E32C6D /* Ampstokva.swift */; };
+		619A9CC82AEC130B00E32C6D /* VC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CC32AEC130B00E32C6D /* VC5.swift */; };
+		619A9CC92AEC130B00E32C6D /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CC42AEC130B00E32C6D /* VC2.swift */; };
+		619A9CCA2AEC130B00E32C6D /* Dioderect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CC52AEC130B00E32C6D /* Dioderect.swift */; };
+		619A9CD12AEC1E2C00E32C6D /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CCC2AEC1E2C00E32C6D /* SidemenuVC.swift */; };
+		619A9CD22AEC1E2C00E32C6D /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CCD2AEC1E2C00E32C6D /* FeedbackVC.swift */; };
+		619A9CD32AEC1E2C00E32C6D /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CCE2AEC1E2C00E32C6D /* sidemenuTblCell.swift */; };
+		619A9CD42AEC1E2C00E32C6D /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CCF2AEC1E2C00E32C6D /* Abtsvc.swift */; };
+		619A9CD52AEC1E2C00E32C6D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9CD02AEC1E2C00E32C6D /* Helper.swift */; };
+		61E8A47E2AEC2EB600D24BF2 /* UserGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8A47D2AEC2EB600D24BF2 /* UserGuide.swift */; };
+		713925AFA5DBD5573C8BA2E0 /* Pods_ElectroMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5D07530D1E089C7E68F6D3 /* Pods_ElectroMate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24B47B9D4EAB71E8F7A30BB8 /* Pods-ElectroMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroMate.release.xcconfig"; path = "Target Support Files/Pods-ElectroMate/Pods-ElectroMate.release.xcconfig"; sourceTree = "<group>"; };
+		3A137CF06F2BAD61A1FC7C4C /* Pods-ElectroMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroMate.debug.xcconfig"; path = "Target Support Files/Pods-ElectroMate/Pods-ElectroMate.debug.xcconfig"; sourceTree = "<group>"; };
+		619A9CA92AEC118E00E32C6D /* ElectroMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		619A9CAC2AEC118E00E32C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		619A9CAE2AEC118E00E32C6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		619A9CB02AEC118E00E32C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		619A9CB32AEC118E00E32C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		619A9CB52AEC119000E32C6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		619A9CB82AEC119000E32C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		619A9CBA2AEC119000E32C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619A9CC12AEC130B00E32C6D /* VC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		619A9CC22AEC130B00E32C6D /* Ampstokva.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ampstokva.swift; sourceTree = "<group>"; };
+		619A9CC32AEC130B00E32C6D /* VC5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC5.swift; sourceTree = "<group>"; };
+		619A9CC42AEC130B00E32C6D /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		619A9CC52AEC130B00E32C6D /* Dioderect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dioderect.swift; sourceTree = "<group>"; };
+		619A9CCC2AEC1E2C00E32C6D /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		619A9CCD2AEC1E2C00E32C6D /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		619A9CCE2AEC1E2C00E32C6D /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		619A9CCF2AEC1E2C00E32C6D /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		619A9CD02AEC1E2C00E32C6D /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		61E8A47D2AEC2EB600D24BF2 /* UserGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGuide.swift; sourceTree = "<group>"; };
+		DE5D07530D1E089C7E68F6D3 /* Pods_ElectroMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectroMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		619A9CA62AEC118E00E32C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713925AFA5DBD5573C8BA2E0 /* Pods_ElectroMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07016E3FB13BF49F89740264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A137CF06F2BAD61A1FC7C4C /* Pods-ElectroMate.debug.xcconfig */,
+				24B47B9D4EAB71E8F7A30BB8 /* Pods-ElectroMate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0EB8CC81311A7D46C5123A5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5D07530D1E089C7E68F6D3 /* Pods_ElectroMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		619A9CA02AEC118E00E32C6D = {
+			isa = PBXGroup;
+			children = (
+				619A9CAB2AEC118E00E32C6D /* ElectroMate */,
+				619A9CAA2AEC118E00E32C6D /* Products */,
+				07016E3FB13BF49F89740264 /* Pods */,
+				0EB8CC81311A7D46C5123A5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		619A9CAA2AEC118E00E32C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				619A9CA92AEC118E00E32C6D /* ElectroMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		619A9CAB2AEC118E00E32C6D /* ElectroMate */ = {
+			isa = PBXGroup;
+			children = (
+				619A9CAC2AEC118E00E32C6D /* AppDelegate.swift */,
+				619A9CAE2AEC118E00E32C6D /* SceneDelegate.swift */,
+				619A9CB02AEC118E00E32C6D /* ViewController.swift */,
+				619A9CCB2AEC1E2C00E32C6D /* Sidemenuvc */,
+				619A9CC02AEC130B00E32C6D /* Converters */,
+				619A9CB22AEC118E00E32C6D /* Main.storyboard */,
+				61E8A47D2AEC2EB600D24BF2 /* UserGuide.swift */,
+				619A9CB52AEC119000E32C6D /* Assets.xcassets */,
+				619A9CB72AEC119000E32C6D /* LaunchScreen.storyboard */,
+				619A9CBA2AEC119000E32C6D /* Info.plist */,
+			);
+			path = ElectroMate;
+			sourceTree = "<group>";
+		};
+		619A9CC02AEC130B00E32C6D /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+				619A9CC12AEC130B00E32C6D /* VC3.swift */,
+				619A9CC22AEC130B00E32C6D /* Ampstokva.swift */,
+				619A9CC32AEC130B00E32C6D /* VC5.swift */,
+				619A9CC42AEC130B00E32C6D /* VC2.swift */,
+				619A9CC52AEC130B00E32C6D /* Dioderect.swift */,
+			);
+			path = Converters;
+			sourceTree = "<group>";
+		};
+		619A9CCB2AEC1E2C00E32C6D /* Sidemenuvc */ = {
+			isa = PBXGroup;
+			children = (
+				619A9CCC2AEC1E2C00E32C6D /* SidemenuVC.swift */,
+				619A9CCD2AEC1E2C00E32C6D /* FeedbackVC.swift */,
+				619A9CCE2AEC1E2C00E32C6D /* sidemenuTblCell.swift */,
+				619A9CCF2AEC1E2C00E32C6D /* Abtsvc.swift */,
+				619A9CD02AEC1E2C00E32C6D /* Helper.swift */,
+			);
+			path = Sidemenuvc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		619A9CA82AEC118E00E32C6D /* ElectroMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619A9CBD2AEC119000E32C6D /* Build configuration list for PBXNativeTarget "ElectroMate" */;
+			buildPhases = (
+				80D74BAADBC396EC714490B6 /* [CP] Check Pods Manifest.lock */,
+				619A9CA52AEC118E00E32C6D /* Sources */,
+				619A9CA62AEC118E00E32C6D /* Frameworks */,
+				619A9CA72AEC118E00E32C6D /* Resources */,
+				116F41D6BD1CCB30C84044B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElectroMate;
+			productName = ElectroMate;
+			productReference = 619A9CA92AEC118E00E32C6D /* ElectroMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		619A9CA12AEC118E00E32C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					619A9CA82AEC118E00E32C6D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 619A9CA42AEC118E00E32C6D /* Build configuration list for PBXProject "ElectroMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 619A9CA02AEC118E00E32C6D;
+			productRefGroup = 619A9CAA2AEC118E00E32C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				619A9CA82AEC118E00E32C6D /* ElectroMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		619A9CA72AEC118E00E32C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619A9CB92AEC119000E32C6D /* LaunchScreen.storyboard in Resources */,
+				619A9CB62AEC119000E32C6D /* Assets.xcassets in Resources */,
+				619A9CB42AEC118E00E32C6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		116F41D6BD1CCB30C84044B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectroMate/Pods-ElectroMate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElectroMate/Pods-ElectroMate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElectroMate/Pods-ElectroMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80D74BAADBC396EC714490B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElectroMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		619A9CA52AEC118E00E32C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619A9CC82AEC130B00E32C6D /* VC5.swift in Sources */,
+				619A9CD22AEC1E2C00E32C6D /* FeedbackVC.swift in Sources */,
+				619A9CD42AEC1E2C00E32C6D /* Abtsvc.swift in Sources */,
+				619A9CC62AEC130B00E32C6D /* VC3.swift in Sources */,
+				619A9CB12AEC118E00E32C6D /* ViewController.swift in Sources */,
+				619A9CC72AEC130B00E32C6D /* Ampstokva.swift in Sources */,
+				619A9CAD2AEC118E00E32C6D /* AppDelegate.swift in Sources */,
+				619A9CCA2AEC130B00E32C6D /* Dioderect.swift in Sources */,
+				619A9CAF2AEC118E00E32C6D /* SceneDelegate.swift in Sources */,
+				619A9CD12AEC1E2C00E32C6D /* SidemenuVC.swift in Sources */,
+				619A9CD52AEC1E2C00E32C6D /* Helper.swift in Sources */,
+				619A9CC92AEC130B00E32C6D /* VC2.swift in Sources */,
+				619A9CD32AEC1E2C00E32C6D /* sidemenuTblCell.swift in Sources */,
+				61E8A47E2AEC2EB600D24BF2 /* UserGuide.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		619A9CB22AEC118E00E32C6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				619A9CB32AEC118E00E32C6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		619A9CB72AEC119000E32C6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				619A9CB82AEC119000E32C6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		619A9CBB2AEC119000E32C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		619A9CBC2AEC119000E32C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		619A9CBE2AEC119000E32C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A137CF06F2BAD61A1FC7C4C /* Pods-ElectroMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElectroMate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ElectroMate;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.ElectroMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		619A9CBF2AEC119000E32C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B47B9D4EAB71E8F7A30BB8 /* Pods-ElectroMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ElectroMate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ElectroMate;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.ElectroMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		619A9CA42AEC118E00E32C6D /* Build configuration list for PBXProject "ElectroMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619A9CBB2AEC119000E32C6D /* Debug */,
+				619A9CBC2AEC119000E32C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619A9CBD2AEC119000E32C6D /* Build configuration list for PBXNativeTarget "ElectroMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				619A9CBE2AEC119000E32C6D /* Debug */,
+				619A9CBF2AEC119000E32C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 619A9CA12AEC118E00E32C6D /* Project object */;
+}

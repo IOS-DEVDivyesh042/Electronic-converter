@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BAC392CFB12E717D874A5DB /* Pods_Electrovert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5294B4A0C5F7FCDF574BBF /* Pods_Electrovert.framework */; };
+		614860AB2ADBA32A00EB0A4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860AA2ADBA32A00EB0A4B /* AppDelegate.swift */; };
+		614860AD2ADBA32A00EB0A4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860AC2ADBA32A00EB0A4B /* SceneDelegate.swift */; };
+		614860AF2ADBA32A00EB0A4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860AE2ADBA32A00EB0A4B /* ViewController.swift */; };
+		614860B22ADBA32A00EB0A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614860B02ADBA32A00EB0A4B /* Main.storyboard */; };
+		614860B42ADBA32B00EB0A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614860B32ADBA32B00EB0A4B /* Assets.xcassets */; };
+		614860B72ADBA32B00EB0A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 614860B52ADBA32B00EB0A4B /* LaunchScreen.storyboard */; };
+		614860C42ADBA3D000EB0A4B /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860BF2ADBA3D000EB0A4B /* SidemenuVC.swift */; };
+		614860C52ADBA3D000EB0A4B /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860C02ADBA3D000EB0A4B /* FeedbackVC.swift */; };
+		614860C62ADBA3D000EB0A4B /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860C12ADBA3D000EB0A4B /* sidemenuTblCell.swift */; };
+		614860C72ADBA3D000EB0A4B /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860C22ADBA3D000EB0A4B /* Abtsvc.swift */; };
+		614860C82ADBA3D000EB0A4B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860C32ADBA3D000EB0A4B /* Helper.swift */; };
+		614860CB2ADBA82400EB0A4B /* Ampstokva.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860CA2ADBA82400EB0A4B /* Ampstokva.swift */; };
+		614860CD2ADBAA5B00EB0A4B /* Dioderect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860CC2ADBAA5B00EB0A4B /* Dioderect.swift */; };
+		614860CF2ADBAD5900EB0A4B /* Actodc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860CE2ADBAD5900EB0A4B /* Actodc.swift */; };
+		614860D42ADBB18900EB0A4B /* Sphasevc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860D32ADBB18900EB0A4B /* Sphasevc.swift */; };
+		614860D62ADBB19500EB0A4B /* Tphase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614860D52ADBB19500EB0A4B /* Tphase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		614860A72ADBA32A00EB0A4B /* Electrovert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Electrovert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		614860AA2ADBA32A00EB0A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		614860AC2ADBA32A00EB0A4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		614860AE2ADBA32A00EB0A4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		614860B12ADBA32A00EB0A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		614860B32ADBA32B00EB0A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		614860B62ADBA32B00EB0A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		614860B82ADBA32B00EB0A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614860BF2ADBA3D000EB0A4B /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		614860C02ADBA3D000EB0A4B /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		614860C12ADBA3D000EB0A4B /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		614860C22ADBA3D000EB0A4B /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		614860C32ADBA3D000EB0A4B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		614860CA2ADBA82400EB0A4B /* Ampstokva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ampstokva.swift; sourceTree = "<group>"; };
+		614860CC2ADBAA5B00EB0A4B /* Dioderect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dioderect.swift; sourceTree = "<group>"; };
+		614860CE2ADBAD5900EB0A4B /* Actodc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actodc.swift; sourceTree = "<group>"; };
+		614860D32ADBB18900EB0A4B /* Sphasevc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sphasevc.swift; sourceTree = "<group>"; };
+		614860D52ADBB19500EB0A4B /* Tphase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tphase.swift; sourceTree = "<group>"; };
+		B98ADF1B065FFB5655A183A0 /* Pods-Electrovert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electrovert.debug.xcconfig"; path = "Target Support Files/Pods-Electrovert/Pods-Electrovert.debug.xcconfig"; sourceTree = "<group>"; };
+		CF5294B4A0C5F7FCDF574BBF /* Pods_Electrovert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Electrovert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0E345E9204366A88700766 /* Pods-Electrovert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Electrovert.release.xcconfig"; path = "Target Support Files/Pods-Electrovert/Pods-Electrovert.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		614860A42ADBA32A00EB0A4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAC392CFB12E717D874A5DB /* Pods_Electrovert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1158F75A525BB40D2678F674 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B98ADF1B065FFB5655A183A0 /* Pods-Electrovert.debug.xcconfig */,
+				EB0E345E9204366A88700766 /* Pods-Electrovert.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4A8ADC4C75F9C01B6C110D4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5294B4A0C5F7FCDF574BBF /* Pods_Electrovert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6148609E2ADBA32A00EB0A4B = {
+			isa = PBXGroup;
+			children = (
+				614860A92ADBA32A00EB0A4B /* Electrovert */,
+				614860A82ADBA32A00EB0A4B /* Products */,
+				1158F75A525BB40D2678F674 /* Pods */,
+				4A8ADC4C75F9C01B6C110D4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		614860A82ADBA32A00EB0A4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				614860A72ADBA32A00EB0A4B /* Electrovert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		614860A92ADBA32A00EB0A4B /* Electrovert */ = {
+			isa = PBXGroup;
+			children = (
+				614860D22ADBB17300EB0A4B /* phasetool */,
+				614860C92ADBA80500EB0A4B /* ToolsVC */,
+				614860BE2ADBA3D000EB0A4B /* Sidemenuvc */,
+				614860AA2ADBA32A00EB0A4B /* AppDelegate.swift */,
+				614860AC2ADBA32A00EB0A4B /* SceneDelegate.swift */,
+				614860AE2ADBA32A00EB0A4B /* ViewController.swift */,
+				614860B02ADBA32A00EB0A4B /* Main.storyboard */,
+				614860B32ADBA32B00EB0A4B /* Assets.xcassets */,
+				614860B52ADBA32B00EB0A4B /* LaunchScreen.storyboard */,
+				614860B82ADBA32B00EB0A4B /* Info.plist */,
+			);
+			path = Electrovert;
+			sourceTree = "<group>";
+		};
+		614860BE2ADBA3D000EB0A4B /* Sidemenuvc */ = {
+			isa = PBXGroup;
+			children = (
+				614860BF2ADBA3D000EB0A4B /* SidemenuVC.swift */,
+				614860C02ADBA3D000EB0A4B /* FeedbackVC.swift */,
+				614860C12ADBA3D000EB0A4B /* sidemenuTblCell.swift */,
+				614860C22ADBA3D000EB0A4B /* Abtsvc.swift */,
+				614860C32ADBA3D000EB0A4B /* Helper.swift */,
+			);
+			path = Sidemenuvc;
+			sourceTree = "<group>";
+		};
+		614860C92ADBA80500EB0A4B /* ToolsVC */ = {
+			isa = PBXGroup;
+			children = (
+				614860CA2ADBA82400EB0A4B /* Ampstokva.swift */,
+				614860CC2ADBAA5B00EB0A4B /* Dioderect.swift */,
+				614860CE2ADBAD5900EB0A4B /* Actodc.swift */,
+			);
+			path = ToolsVC;
+			sourceTree = "<group>";
+		};
+		614860D22ADBB17300EB0A4B /* phasetool */ = {
+			isa = PBXGroup;
+			children = (
+				614860D32ADBB18900EB0A4B /* Sphasevc.swift */,
+				614860D52ADBB19500EB0A4B /* Tphase.swift */,
+			);
+			path = phasetool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		614860A62ADBA32A00EB0A4B /* Electrovert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614860BB2ADBA32B00EB0A4B /* Build configuration list for PBXNativeTarget "Electrovert" */;
+			buildPhases = (
+				64E5F4CFC3EABF9E951DED81 /* [CP] Check Pods Manifest.lock */,
+				614860A32ADBA32A00EB0A4B /* Sources */,
+				614860A42ADBA32A00EB0A4B /* Frameworks */,
+				614860A52ADBA32A00EB0A4B /* Resources */,
+				9841CB764DBA7CC7583E1F25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Electrovert;
+			productName = Electrovert;
+			productReference = 614860A72ADBA32A00EB0A4B /* Electrovert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6148609F2ADBA32A00EB0A4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					614860A62ADBA32A00EB0A4B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 614860A22ADBA32A00EB0A4B /* Build configuration list for PBXProject "Electrovert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6148609E2ADBA32A00EB0A4B;
+			productRefGroup = 614860A82ADBA32A00EB0A4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				614860A62ADBA32A00EB0A4B /* Electrovert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		614860A52ADBA32A00EB0A4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614860B72ADBA32B00EB0A4B /* LaunchScreen.storyboard in Resources */,
+				614860B42ADBA32B00EB0A4B /* Assets.xcassets in Resources */,
+				614860B22ADBA32A00EB0A4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64E5F4CFC3EABF9E951DED81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Electrovert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9841CB764DBA7CC7583E1F25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Electrovert/Pods-Electrovert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Electrovert/Pods-Electrovert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Electrovert/Pods-Electrovert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		614860A32ADBA32A00EB0A4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614860AF2ADBA32A00EB0A4B /* ViewController.swift in Sources */,
+				614860D62ADBB19500EB0A4B /* Tphase.swift in Sources */,
+				614860CB2ADBA82400EB0A4B /* Ampstokva.swift in Sources */,
+				614860C52ADBA3D000EB0A4B /* FeedbackVC.swift in Sources */,
+				614860C62ADBA3D000EB0A4B /* sidemenuTblCell.swift in Sources */,
+				614860C72ADBA3D000EB0A4B /* Abtsvc.swift in Sources */,
+				614860CF2ADBAD5900EB0A4B /* Actodc.swift in Sources */,
+				614860D42ADBB18900EB0A4B /* Sphasevc.swift in Sources */,
+				614860CD2ADBAA5B00EB0A4B /* Dioderect.swift in Sources */,
+				614860AB2ADBA32A00EB0A4B /* AppDelegate.swift in Sources */,
+				614860C42ADBA3D000EB0A4B /* SidemenuVC.swift in Sources */,
+				614860AD2ADBA32A00EB0A4B /* SceneDelegate.swift in Sources */,
+				614860C82ADBA3D000EB0A4B /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		614860B02ADBA32A00EB0A4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614860B12ADBA32A00EB0A4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		614860B52ADBA32B00EB0A4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				614860B62ADBA32B00EB0A4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		614860B92ADBA32B00EB0A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		614860BA2ADBA32B00EB0A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		614860BC2ADBA32B00EB0A4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98ADF1B065FFB5655A183A0 /* Pods-Electrovert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Electrovert/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Electrovert;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.Electrovertss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		614860BD2ADBA32B00EB0A4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB0E345E9204366A88700766 /* Pods-Electrovert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Electrovert/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Electrovert;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject.Electrovertss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		614860A22ADBA32A00EB0A4B /* Build configuration list for PBXProject "Electrovert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614860B92ADBA32B00EB0A4B /* Debug */,
+				614860BA2ADBA32B00EB0A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614860BB2ADBA32B00EB0A4B /* Build configuration list for PBXNativeTarget "Electrovert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614860BC2ADBA32B00EB0A4B /* Debug */,
+				614860BD2ADBA32B00EB0A4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6148609F2ADBA32A00EB0A4B /* Project object */;
+}

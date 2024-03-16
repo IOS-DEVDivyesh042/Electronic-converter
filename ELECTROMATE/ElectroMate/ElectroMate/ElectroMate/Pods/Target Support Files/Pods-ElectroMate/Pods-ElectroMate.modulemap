@@ -1,0 +1,6 @@
+framework module Pods_ElectroMate {
+  umbrella header "Pods-ElectroMate-umbrella.h"
+
+  export *
+  module * { export * }
+}
